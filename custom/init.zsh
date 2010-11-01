@@ -16,9 +16,14 @@ export DISABLE_AUTO_UPDATE="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git gem github ruby)
+plugins=(git gem github ruby osx)
 
 #source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export EDITOR="mvim"
+
+# RVM
+unsetopt auto_name_dirs
+[[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
+
