@@ -27,3 +27,5 @@ export EDITOR="mvim"
 unsetopt auto_name_dirs
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
 
+# PATH UPDATES
+export PATH="/usr/local/bin:$PATH"
