@@ -23,9 +23,10 @@ plugins=(git gem github ruby osx)
 # Customize to your needs...
 export EDITOR="mvim"
 
-# RVM
-unsetopt auto_name_dirs
-[[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
-
 # PATH UPDATES
 export PATH="/usr/local/bin:$PATH"
+
+# RVM
+unsetopt auto_name_dirs
+[[ -s $HOME/.rvm/scripts/rvm ]] && . $HOME/.rvm/scripts/rvm
+
