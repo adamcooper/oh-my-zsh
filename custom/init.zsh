@@ -21,7 +21,7 @@ plugins=(git gem github ruby osx)
 #source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export EDITOR="mvim"
+export EDITOR="vim"
 
 # PATH UPDATES
 export PATH="/usr/local/bin:$PATH"
